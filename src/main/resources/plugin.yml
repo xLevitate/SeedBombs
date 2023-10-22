@@ -1,0 +1,4 @@
+name: SeedBombs
+version: '${version}'
+main: me.levitate.seedbombs.SeedBombs
+api-version: '1.19'
