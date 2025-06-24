@@ -1,0 +1,34 @@
+messages:
+  placed: <green>You have used a seed bomb!
+  give: <green>You gave %player% a seed bomb!
+  given: <green>You have been given a seed bomb!
+  error-give: <red>That player is invalid.
+seedTypes:
+  seed_1:
+    material: WHEAT_SEEDS
+    radius: 1 # The radius around the center block, if the radius is 2 it will plant 2 seeds around the center block.
+    name: <#bbfb7a><bold>ᴡʜᴇᴀᴛ ꜱᴇᴇᴅ ʙᴏᴍʙ </bold><gray>[ᴛɪᴇʀ ɪ]
+    lore:
+    - <dark_gray>ꜱᴇᴇᴅ ʙᴏᴍʙ
+    - ''
+    - <#bbfb7a>ℹ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ
+    - <gray>ᴛʜɪꜱ ꜱᴇᴇᴅ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ ᴘʟᴀɴᴛ
+    - <gray>ᴄʀᴏᴘꜱ ɪɴ ᴀ ʀᴀᴅɪᴜꜱ.
+    - ''
+    - '<#bbfb7a>• ʀᴀᴅɪᴜꜱ: <gray>%radius%'
+    - ''
+    - <#bbfb7a>🔥 ᴘʟᴀɴᴛ ᴛᴏ ᴜꜱᴇ
+  carrot_1:
+    material: CARROT
+    radius: 1
+    name: <#fba669><bold>ᴄᴀʀʀᴏᴛ ꜱᴇᴇᴅ ʙᴏᴍʙ </bold><gray>[ᴛɪᴇʀ ɪ]
+    lore:
+    - <dark_gray>ꜱᴇᴇᴅ ʙᴏᴍʙ
+    - ''
+    - <#fba669>ℹ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ
+    - <gray>ᴛʜɪꜱ ꜱᴇᴇᴅ ᴀʟʟᴏᴡꜱ ʏᴏᴜ ᴛᴏ ᴘʟᴀɴᴛ
+    - <gray>ᴄʀᴏᴘꜱ ɪɴ ᴀ ʀᴀᴅɪᴜꜱ.
+    - ''
+    - '<#fba669>• ʀᴀᴅɪᴜꜱ: <gray>%radius%'
+    - ''
+    - <#fba669>🔥 ᴘʟᴀɴᴛ ᴛᴏ ᴜꜱᴇ
