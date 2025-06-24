@@ -53,10 +53,7 @@ public class Configuration {
         }
     }
 
-    private void loadSettings() {
-        //breakOther = fileConfiguration.getBoolean("settings.break-other");
-        //System.out.println("break other is set to: " + breakOther);
-    }
+    private void loadSettings() {}
 
     private void loadSeedTypesFromConfig() {
         ConfigurationSection section = fileConfiguration.getConfigurationSection("seedTypes");
@@ -85,8 +82,6 @@ public class Configuration {
             Bukkit.getLogger().severe("The material string is invalid!");
             return null;
         }
-
-        System.out.println("material string: " + materialString);
 
         Material seedMaterial = Material.matchMaterial(materialString);
         if (seedMaterial == null) {

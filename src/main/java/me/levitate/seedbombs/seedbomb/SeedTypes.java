@@ -2,7 +2,6 @@ package me.levitate.seedbombs.seedbomb;
 
 import com.google.common.collect.ImmutableList;
 import lombok.Getter;
-import org.bukkit.Material;
 
 import java.util.ArrayList;
 import java.util.List;

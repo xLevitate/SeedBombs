@@ -1,7 +1,6 @@
 package me.levitate.seedbombs;
 
 import co.aikar.commands.PaperCommandManager;
-import com.google.common.collect.ImmutableList;
 import me.levitate.seedbombs.command.MainCommand;
 import me.levitate.seedbombs.config.Configuration;
 import me.levitate.seedbombs.listener.PlayerListener;

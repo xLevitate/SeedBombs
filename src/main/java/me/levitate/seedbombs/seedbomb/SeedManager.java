@@ -4,7 +4,6 @@ import me.levitate.seedbombs.utils.Utilities;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.block.data.type.Farmland;
 
 import java.util.List;
 

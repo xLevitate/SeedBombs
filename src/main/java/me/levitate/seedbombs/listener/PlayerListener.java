@@ -50,6 +50,16 @@ public class PlayerListener implements Listener {
         if (seedType == null)
             return;
 
+        Block airBlock = block.getRelative(0, 1, 0);
+        if (airBlock.getLightLevel() < 9) {
+            event.getPlayer().sendMessage(MiniMessage.miniMessage().deserialize("<red>Not enough light to plant seeds here!"));
+            return;
+        }
+
+        if (!airBlock.getType().equals(Material.AIR)) {
+            return;
+        }
+
         SeedManager.plantSeeds(seedType, block);
         event.getPlayer().sendMessage(MiniMessage.miniMessage().deserialize(configuration.getMessages().get("placed")));
     }
